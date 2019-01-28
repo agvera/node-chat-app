@@ -5,7 +5,7 @@ socket.on('connect', function () {
 })
 
 socket.on('newMessage', function (message) {
-    console.log('New Email', message)
+    console.log('New Message', message)
 })
 
 socket.on('disconnect', function () {
